@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anas — Backend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav id="navbar">
+      <a href="#hero" class="logo">A.</a>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobileMenu">
+      <ul>
+        <li><a href="#about" class="mob-link">About</a></li>
+        <li><a href="#skills" class="mob-link">Skills</a></li>
+        <li><a href="#projects" class="mob-link">Projects</a></li>
+        <li><a href="#experience" class="mob-link">Experience</a></li>
+        <li><a href="#contact" class="mob-link">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- HERO -->
+    <section id="hero">
+      <div class="hero-bg">
+        <div class="grid-lines"></div>
+        <div class="glow-blob blob-1"></div>
+        <div class="glow-blob blob-2"></div>
+      </div>
+      <div class="hero-content">
+        <p class="hero-label">Backend Developer</p>
+        <h1 class="hero-name">Anas<span class="dot">.</span></h1>
+        <p class="hero-sub">
+          Building real-world systems with <span class="hl">C#</span> &
+          <span class="hl">ASP.NET</span>
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn-primary">View Projects</a>
+          <a href="#contact" class="btn-outline">Get in Touch</a>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-line"></div>
+        <span>Scroll</span>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-tag">01 — About</div>
+        <h2 class="section-heading">About Me</h2>
+        <div class="about-grid">
+          <!-- LEFT: Bio + details -->
+          <div class="about-text">
+            <p>
+              I'm a passionate backend developer based in Amman, Jordan, with a
+              strong focus on building real-world systems using
+              <strong>C#</strong> and <strong>ASP.NET</strong>. I care about
+              clean architecture, maintainable code, and shipping things that
+              actually work.
+            </p>
+            <p>
+              I enjoy solving complex backend problems — from database design to
+              API architecture — and I'm always pushing to level up my craft.
+            </p>
+
+            <div class="about-details">
+              <div class="about-detail-row">
+                <span class="detail-label">Location:</span>
+                <!-- FILL IN: Your city/country -->
+                <span class="detail-value">Amman, Jordan</span>
+              </div>
+              <div class="about-detail-row">
+                <span class="detail-label">Phone:</span>
+                <!-- FILL IN: Your phone number -->
+                <a href="tel:+962XXXXXXXX" class="detail-link"
+                  >+962 XX XXX XX XX</a
+                >
+              </div>
+              <div class="about-detail-row">
+                <span class="detail-label">Email:</span>
+                <!-- FILL IN: Your email -->
+                <a href="mailto:anas.sawalhy@email.com" class="detail-link"
+                  >anas.sawalhy@email.com</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- RIGHT: Education card -->
+          <div class="about-card">
+            <h3 class="edu-heading">Education</h3>
+            <div class="edu-card">
+              <!-- FILL IN: Your degree, university, dates, GPA -->
+              <p class="edu-degree">Bachelor of Computer Science</p>
+              <p class="edu-uni">University of Jordan – Amman</p>
+              <p class="edu-dates">October 2020 – June 2024</p>
+              <p class="edu-gpa">GPA: 3.52/4.0</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <div class="section-tag">02 — Skills</div>
+        <h2 class="section-heading">Skills &amp; Expertise</h2>
+        <div class="skills-categories-grid">
+          <div class="skill-cat-card">
+            <h3 class="skill-cat-title">Backend &amp; Languages</h3>
+            <div class="skill-tags">
+              <span>C#</span>
+              <span>ASP.NET</span>
+              <span>RESTful APIs</span>
+              <span>3-Tier Architecture</span>
+            </div>
+          </div>
+
+          <div class="skill-cat-card">
+            <h3 class="skill-cat-title">Databases &amp; Data</h3>
+            <div class="skill-tags">
+              <span>SQL</span>
+              <span>SQL Server</span>
+              <span>Firebase</span>
+              <span>Data Modeling</span>
+            </div>
+          </div>
+
+          <div class="skill-cat-card">
+            <h3 class="skill-cat-title">Tools &amp; Ecosystem</h3>
+            <div class="skill-tags">
+              <span>Git</span>
+              <span>Visual Studio</span>
+              <span>Postman</span>
+              <span>HTML &amp; CSS</span>
+            </div>
+          </div>
+
+          <div class="skill-cat-card">
+            <h3 class="skill-cat-title">Computer Science</h3>
+            <div class="skill-tags">
+              <span>Data Structures &amp; Algorithms</span>
+              <span>Object-Oriented Design</span>
+              <span>Clean Code Principles</span>
+              <span>Debugging &amp; Problem Solving</span>
+              <span>Team Collaboration</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-tag">03 — Projects</div>
+        <h2 class="section-heading">Things I've built</h2>
+        <div class="projects-list">
+          <div class="project-card">
+            <div class="project-header">
+              <span class="project-num">01</span>
+              <div class="project-links">
+                <!-- FILL IN: Replace # with your actual GitHub link -->
+                <a
+                  href="#"
+                  target="_blank"
+                  class="project-link"
+                  aria-label="GitHub"
+                >
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <h3>Driving License Management System</h3>
+            <p>
+              A full desktop application to manage driving license records,
+              tests, and applicants. Built with Windows Forms and a complete
+              3-tier architecture.
+            </p>
+            <div class="project-tags">
+              <span>C#</span><span>Windows Forms</span><span>SQL Server</span
+              ><span>3-Tier</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <span class="project-num">02</span>
+              <div class="project-links">
+                <!-- FILL IN: Replace # with your actual GitHub link -->
+                <a
+                  href="#"
+                  target="_blank"
+                  class="project-link"
+                  aria-label="GitHub"
+                >
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+                <a
+                  href="#"
+                  target="_blank"
+                  class="project-link"
+                  aria-label="Live demo"
+                >
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <h3>Portfolio Website</h3>
+            <p>
+              This very site — a personal portfolio built to showcase projects,
+              skills, and experience. Clean, responsive, and hand-coded with
+              pure HTML and CSS.
+            </p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <span class="project-num">03</span>
+              <div class="project-links">
+                <!-- FILL IN: Replace # with your actual GitHub link -->
+                <a
+                  href="#"
+                  target="_blank"
+                  class="project-link"
+                  aria-label="GitHub"
+                >
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <h3>Auto Comment Bot</h3>
+            <p>
+              An automation tool that handles commenting workflows. Built to
+              explore automation patterns and interact with web platforms
+              programmatically.
+            </p>
+            <div class="project-tags">
+              <span>C#</span><span>Automation</span><span>HTTP</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section section-alt">
+      <div class="container">
+        <div class="section-tag">04 — Experience</div>
+        <h2 class="section-heading">What I've done</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <h3>Full Windows Forms Application</h3>
+              <p>
+                Designed and built a complete desktop app using 3-tier
+                architecture — Data Access Layer, Business Logic Layer, and
+                Presentation Layer — keeping the codebase clean and
+                maintainable.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <h3>Firebase Backend Integration</h3>
+              <p>
+                Worked with Firebase to implement real-time database
+                functionality and authentication flows, getting hands-on with
+                cloud-based backend services.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <h3>Advanced Backend Development</h3>
+              <p>
+                Currently deepening expertise in ASP.NET Core, REST API design,
+                and enterprise-grade software patterns to build more scalable
+                systems.
+              </p>
+              <span class="tl-badge">In Progress</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-tag">05 — Contact</div>
+        <h2 class="section-heading">Let's connect</h2>
+        <p class="contact-sub">
+          Whether you have a project in mind, a question, or just want to say hi
+          — my inbox is open.
+        </p>
+
+        <div class="contact-cards">
+          <!-- EMAIL — FILL IN your email address -->
+          <a href="mailto:anas.sawalhy@email.com" class="contact-card">
+            <div class="contact-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <polyline
+                  points="22,6 12,13 2,6"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <div class="contact-info">
+              <span class="contact-label">Email</span>
+              <!-- FILL IN: Replace with your actual email -->
+              <span class="contact-value">
+                <span class="contact-value">anas.sawlhy@gmail.com </span>
+              </span>
+            </div>
+            <svg
+              class="contact-arrow"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M5 12h14M12 5l7 7-7 7"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </a>
+
+          <!-- GITHUB — FILL IN your GitHub username -->
+          <a
+            href="https://github.com/AnasAlsawalhy"
+            target="_blank"
+            class="contact-card"
+          >
+            <div class="contact-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <div class="contact-info">
+              <span class="contact-label">GitHub</span>
+              <!-- FILL IN: Replace with your actual username -->
+              <span class="contact-value">github.com/AnasAlsawalhy</span>
+            </div>
+            <svg
+              class="contact-arrow"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M5 12h14M12 5l7 7-7 7"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </a>
+
+          <!-- LINKEDIN — FILL IN your LinkedIn username -->
+          <a
+            href="https://linkedin.com/in/anas-alsawalhy"
+            target="_blank"
+            class="contact-card"
+          >
+            <div class="contact-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <circle
+                  cx="4"
+                  cy="4"
+                  r="2"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                />
+              </svg>
+            </div>
+            <div class="contact-info">
+              <span class="contact-label">LinkedIn</span>
+              <!-- FILL IN: Replace with your actual username -->
+              <span class="contact-value">linkedin.com/in/anas-alsawalhy</span>
+            </div>
+            <svg
+              class="contact-arrow"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M5 12h14M12 5l7 7-7 7"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer></footer>
+  </body>
+</html>
