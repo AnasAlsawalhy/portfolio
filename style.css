@@ -340,6 +340,16 @@ ul {
   transform: translateY(-2px);
 }
 
+.btn-cv {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-cv svg {
+  flex-shrink: 0;
+}
+
 .scroll-indicator {
   position: absolute;
   bottom: 40px;
